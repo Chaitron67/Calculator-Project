@@ -1,0 +1,100 @@
+html {
+  font-size: 75%;
+}
+
+
+body {
+  color: white;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105vh;
+}
+
+.main-container {
+  background-color: black;
+  width: 23vw;
+  padding: 1rem 2rem 1rem 2.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.buttons {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-size: 2.6rem;
+  border: none;
+  width: 6.0rem;
+  height: 6.0rem;
+  border-radius: 3.0rem;
+  margin-left: .0rem;
+  margin-right: .5rem;
+}
+
+.c-buttons {
+  background-color: rgb(248, 17, 113);
+  color: white;
+  font-size: 2.6rem;
+  border: none;
+  width: 6.0rem;
+  height: 6.0rem;
+  border-radius: 3.0rem;
+}
+
+.clear-btn {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  width: 6.0rem;
+  height: 6.0rem;
+  border-radius: 3.0rem;
+  margin-left: .0rem;
+  margin-right: .5rem;
+}
+
+.value {
+  color: rgb(15, 242, 15);
+  display: inline-block;
+  width: 17vw;
+  font-size: 4.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  margin-left: 1.2rem;
+}
+
+
+
+@media (max-width: 480px) {
+  html {
+    font-size: 60%;
+  }
+
+  .main-container {
+    width: 255px;
+  }
+
+  .value {
+    width: 240px;
+  }
+}
+
+@media (min-width: 481px) and (max-width:1024px) {
+  html {
+    font-size: 80%;
+  }
+
+  .main-container {
+    width: 350px;
+  }
+
+  .value {
+    width: 320px;
+  }
+}
