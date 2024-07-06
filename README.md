@@ -25,7 +25,7 @@ The Basic Calculator Project is a web-based application designed for performing 
 
 ## Installation Instructions
 --> No installation is required. The calculator is accessible online via the following link :-
-- [Basic Calculator](https://playtictactoehere.netlify.app/)
+- [Basic Calculator](https://technocalculator.netlify.app/)
 
 ## Usage Instructions
 Using the calculator is straightforward. Simply visit the website and start performing your basic calculations. Enter numbers and use the provided buttons for addition (+), subtraction (-), multiplication (*), and division (/). The calculator also supports decimal points for more precise computations.
